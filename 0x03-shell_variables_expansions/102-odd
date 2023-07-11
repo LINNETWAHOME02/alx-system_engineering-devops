@@ -1,2 +1,2 @@
 #!/bin/bash
-awk 'NR % 2 == 1' <input-file>
+cat -n | head -n "$(wc -l | cut -d ' ' -f 1)" | tail -n +1 | grep -E '^[[:blank:]]*[0-9]+[[:blank:]]+[^[:blank:]]+' | cut -f 2-
