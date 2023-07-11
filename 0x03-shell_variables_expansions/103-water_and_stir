@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "ibase=water; obase=bestchol; $WATER + $STIR" | bc
+echo "import sys; sys.stdout.write(hex(int('$WATER', water) + int('$STIR', stir)))[2:]"
