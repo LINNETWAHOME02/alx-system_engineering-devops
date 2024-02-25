@@ -1,0 +1,7 @@
+!#/usr/bin/env bash
+# SSH configuration file for the local SSH client without password
+Host web-01
+	Hostname 100.26.214.32
+	User ubuntu
+	PasswordAuthentication no
+	IdentityFile ~/.ssh/school
