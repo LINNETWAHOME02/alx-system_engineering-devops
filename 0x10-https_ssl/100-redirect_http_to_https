@@ -47,5 +47,5 @@ frontend linnetsblog-frontend-https
 
 backend linnetsblog-tech-backend
     balance roundrobin
-    server 151666-web-01 100.26.214.32:80 check
-    server 151666-web-02 100.26.243.211:80 check
+    server 463524-web-01 100.26.214.32:80 check
+    server 463524-web-02 100.26.243.211:80 check
