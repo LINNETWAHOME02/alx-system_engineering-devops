@@ -3,9 +3,6 @@
 ### 😂 Random Dev Meme
 <img src='https://randommeme-five.vercel.app/' style="height: 400px;"/>
 
----
-[![](https://visitcount.itsvg.in/api?id=LINNETWAHOME02&icon=0&color=0)](https://visitcount.itsvg.in)
-
 ## Web Stack Debugging #3 project
 
 ## Issue Summary
